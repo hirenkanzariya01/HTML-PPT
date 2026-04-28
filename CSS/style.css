@@ -32,3 +32,119 @@ button {
     width: 100%;
   }
 }
+
+.BandSection {
+  padding: 80px 400px;
+
+  h1 {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(134, 133, 133);
+    font-family: "Quicksand", sans-serif;
+  }
+
+  p {
+    text-align: justify;
+    line-height: 1.2;
+  }
+
+
+  .usersCards {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0;
+
+    p {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    img {
+      width: 170px;
+    }
+  }
+}
+
+.tour_dates {
+  background-color: black;
+  color: white;
+  padding: 80px 400px;
+
+  h1 {
+    font-size: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(134, 133, 133);
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .months {
+    background-color: white;
+    color: black;
+
+    p {
+      padding: 10px;
+    }
+
+    span {
+      background-color: red;
+      color: white;
+      padding: 3px 8px;
+      margin-left: 10px
+    }
+
+    .three {
+      background-color: black;
+      color: white;
+      padding: 3px 8px;
+      margin-left: 600px;
+      border-radius: 20px;
+    }
+  }
+
+
+  .city {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+
+    .card {
+      width: 32%;
+      background-color: white;
+      color: black;
+
+      img {
+        width: 100%;
+      }
+
+      h3 {
+        padding: 10px;
+      }
+
+      p {
+        padding: 10px;
+
+      }
+
+      button {
+        margin: 10px;
+        padding: 10px 20px;
+      }
+    }
+  }
+
+}
